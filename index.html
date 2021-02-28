@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Password</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+ <script>
+  function checkPassword() {
+   var password = document.getElementById("passwordBox");
+   var passwordText = password.value;
+   if(passwordText == "FABIHAH") {
+    return true;
+   }
+   alert("Access denied! Incorrect password!");
+   return false;
+   }
+ </script>
+</head>
+<body>
+<div class="box">
+<br>
+ <p style="font-size: 60;">Hai Fatin</p>
+ <p style="font-size: 12pt;">Masukkan password awak</p>
+ <p>Password:<input id="passwordBox" type="password"/></p>
+ <a href="https://nasmzr.github.io/-/" onclick="return checkPassword()">
+<input value="Submit sini cepat!" type="submit">
+ </a>
+</body>
+</html>
+
+
+
+
